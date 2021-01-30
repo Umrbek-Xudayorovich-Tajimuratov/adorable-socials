@@ -1,0 +1,149 @@
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.block {
+  width: 45%;
+  height: 100px;
+  margin: 30vh auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 50px;
+}
+.socials {
+  width: 78px;
+  height: 78px;
+  background-color: #fefefe;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;  
+}
+
+/* Pastdan keladigan div */
+.socials::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  top: 100%;
+  display: block;
+  transform: rotate(45deg) scale(1.2);
+  transition: left 0.25s, top 0.25s, transform 0.25s 0.25s;  
+}
+/* Rasm un */
+.socials::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;  
+    transition: all 0.25s;
+  
+}
+/* facebook */
+.item-f::before {
+  background-color: #4064ac;
+}
+.item-f:hover::before{
+    left: 19%;
+    top: -15%;
+    transform: rotate(45deg) scale(2)
+}
+.item-f:hover::after{
+    background-image: url("images1/facebook_w.png");
+    transform: scale(1.1);
+}
+
+
+.item-f::after {
+  background: url("images1/facebook.png") no-repeat;
+  background-position: center center;
+  background-size: 40%;
+}
+
+/* twitter */
+.item-t::before {
+    background-color: #34D1F7;
+  }
+  .item-t:hover::before{
+      left: 19%;
+      top: -15%;
+      transform: rotate(45deg) scale(2)
+  }
+  .item-t:hover::after{
+      background-image: url("images1/twitter_w.png");
+      transform: scale(1.1);
+  }
+  
+  
+  .item-t::after {
+    background: url("images1/twitter.png") no-repeat;
+    background-position: center center;
+    background-size: 40%;
+  }
+
+  /* Google */
+  .item-g::before {
+    background-color:#d34836;
+  }
+  .item-g:hover::before{
+      left: 19%;
+      top: -15%;
+      transform: rotate(45deg) scale(2)
+  }
+  .item-g:hover::after{
+      background-image: url("images1/google_w.png");
+      transform: scale(1.1);
+  }
+  
+  .item-g::after {
+    background: url("images1/google.png") no-repeat;
+    background-position: center center;
+    background-size: 35%;
+  }
+    /* Dribble  */
+  .item-d::before {
+    background-color:#ee66aa;
+  }
+  .item-d:hover::before{
+      left: 19%;
+      top: -15%;
+      transform: rotate(45deg) scale(2)
+  }
+  .item-d:hover::after{
+      background-image: url("images1/dribble_w.png");
+      transform: scale(1.1);
+  }
+  
+  .item-d::after {
+    background: url("images1/dribble.png") no-repeat;
+    background-position: center center;
+    background-size: 40%;
+  }
+
+  /* skype */
+  .item-s::before {
+    background-color: #00aff0;
+  }
+  .item-s:hover::before{
+      left: 19%;
+      top: -15%;
+      transform: rotate(45deg) scale(2)
+  }
+  .item-s:hover::after{
+      background-image: url("images1/scype_2.png");
+      transform: scale(1.1);
+  }
+  
+  .item-s::after {
+    background: url("images1/scype.png") no-repeat;
+    background-position: center center;
+    background-size: 40%;
+  }
+
