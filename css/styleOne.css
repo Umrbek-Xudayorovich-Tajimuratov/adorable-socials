@@ -56,13 +56,13 @@
     transform: rotate(45deg) scale(2)
 }
 .item-f:hover::after{
-    background-image: url("images1/facebook_w.png");
+    background-image: url("../images1/facebook_w.png");
     transform: scale(1.1);
 }
 
 
 .item-f::after {
-  background: url("images1/facebook.png") no-repeat;
+  background: url("../images1/facebook.png") no-repeat;
   background-position: center center;
   background-size: 40%;
 }
@@ -77,13 +77,13 @@
       transform: rotate(45deg) scale(2)
   }
   .item-t:hover::after{
-      background-image: url("images1/twitter_w.png");
+      background-image: url("../images1/twitter_w.png");
       transform: scale(1.1);
   }
   
   
   .item-t::after {
-    background: url("images1/twitter.png") no-repeat;
+    background: url("../images1/twitter.png") no-repeat;
     background-position: center center;
     background-size: 40%;
   }
@@ -98,12 +98,12 @@
       transform: rotate(45deg) scale(2)
   }
   .item-g:hover::after{
-      background-image: url("images1/google_w.png");
+      background-image: url("../images1/google_w.png");
       transform: scale(1.1);
   }
   
   .item-g::after {
-    background: url("images1/google.png") no-repeat;
+    background: url("../images1/google.png") no-repeat;
     background-position: center center;
     background-size: 35%;
   }
@@ -117,12 +117,12 @@
       transform: rotate(45deg) scale(2)
   }
   .item-d:hover::after{
-      background-image: url("images1/dribble_w.png");
+      background-image: url("../images1/dribble_w.png");
       transform: scale(1.1);
   }
   
   .item-d::after {
-    background: url("images1/dribble.png") no-repeat;
+    background: url("../images1/dribble.png") no-repeat;
     background-position: center center;
     background-size: 40%;
   }
@@ -137,12 +137,12 @@
       transform: rotate(45deg) scale(2)
   }
   .item-s:hover::after{
-      background-image: url("images1/scype_2.png");
+      background-image: url("../images1/scype_2.png");
       transform: scale(1.1);
   }
   
   .item-s::after {
-    background: url("images1/scype.png") no-repeat;
+    background: url("../images1/scype.png") no-repeat;
     background-position: center center;
     background-size: 40%;
   }
